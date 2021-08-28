@@ -16,11 +16,13 @@ Ubuntu: [Clique aqui para seguir os passos de instalação no Linux](https://pyt
 Execute os arquivos do cliente e servidor pelo terminal através dos comandos: 
 
 ```bash
+  python naming-server.py
   python server.py
   python client.py
 ```
 Ou
 ```bash
+  python naming-server.py
   python3 server.py
   python3 client.py
 ```

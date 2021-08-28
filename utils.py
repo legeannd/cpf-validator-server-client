@@ -49,3 +49,12 @@ def cpfValidator(data):
             return True
         else: 
             return False
+
+def cutter(data):
+    data = data.split(';')
+
+    identificador = data[1]
+    endereco = data[2]
+    porta = data[3]
+
+    return(identificador, endereco, porta)
